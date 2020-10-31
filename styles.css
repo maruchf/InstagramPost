@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+.container {
+    width: 60vw;
+    height: 85vh;
+    background: white;
+    }
+
+header{
+    height:8%;
+    display: flex;
+    justify-content: space-between;
+    }
+
+.title{
+    width: 50%;
+    height: 95%;
+    display: inline-flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    width: 5%;
+    height: 95%;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    margin: 10px
+}
+.profile h1 {
+    margin: 0;
+    font-size: 2em;
+    }
+
+.profile h2 {
+    margin:0;
+    font-size: 1em;
+    }
+
+.icon-profile{
+    margin: 15px;
+    display: flex;
+    width: 30px;
+    height: 50px;
+    align-items: center;
+}
+
+.icon-profile i{
+    margin: 2px;
+    font-size: 3em;}
+
+.post-image {
+    width: 100%;
+    height: 60%;
+    background-image: url("https://viajes.nationalgeographic.com.es/medio/2018/07/22/tepui-roraima_0adc2ca4.jpg");
+    background-size: cover;
+}
+
+.actions {
+    margin: 5px;
+    height:5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.actions-left * { 
+    font-size: 25px;
+    margin: 2px;
+}
+
+.actions-rigth * { 
+    font-size: 25px;
+    margin: 2px;
+}
+
+.information {
+    height: 20%;
+}
+
+
